@@ -1,4 +1,4 @@
-@import 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic'; 
+@import 'http://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic';
 
 /* > Allgemein */
 
@@ -1236,28 +1236,14 @@ div.uwork + br[style="clear: both;"] + br { display: none; }
 	background: #fff url(i/noise_gray.png) fixed;
 }
 
-.framebannerbg:before, .framebannerbg:after {
+.framebannerbg:before {
 	position: absolute; white-space: pre;
 	box-shadow: 0 0 4px rgba(0,0,0,.5); border-radius: 1px;
 	left: 15px; top: 0px; width: 270px; height: 40px;
-	font-size: 11px; display: block; content: "";
+	font-size: 11px; display: block;
 	transition: all 500ms; padding: 10px;
 	border: 3px solid #eee; text-overflow: ellipsis;
-	overflow: hidden;
-}
-
-.framebannerbg:hover:before {
-	opacity: 0;
-}
-
-.framebannerbg:after {
-	opacity: 0; transform: translate(0px, -60px);
-}
-
-.framebannerbg:hover:after {
-	opacity: 1; transform: translate(0px, 0px);
-
-
+	overflow: hidden; visibility: hidden;
 }
 
 /* Werbung */
