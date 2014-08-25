@@ -12,25 +12,25 @@ p { padding: 0; margin: 0; }
 a { color: #c50; font-weight: bold; text-decoration: none; }
 a:hover { color: #f80; }
 
-.framemainbg { background-color: #fff; color: #333; background-image: url(../i/noise_gray.png); background-attachment: fixed; }
+.framemainbg { background-color: #fff; color: #333; background-image: url(i/noise_gray.png); background-attachment: fixed; }
 
 /* > Sidebar (Itemframe, Mapframe, Menüframe) */
 .frameitembg,
 .framemapbg,
-.framemenubg { background-color: #fff; color: #333; background-image: url(../i/noise_gray.png); background-attachment: fixed; }
+.framemenubg { background-color: #fff; color: #333; background-image: url(i/noise_gray.png); background-attachment: fixed; }
 
 /* > > Itemframe */
 .frameitembg { padding: 5px; font-size: 11px; }
 
 /* > > Menüframe */
-.framemenubg { background-image: url(../i/menufr.png); background-position: left bottom; font-size: 11px; color: #eee; }
+.framemenubg { background-image: url(i/menufr.png); background-position: left bottom; font-size: 11px; color: #eee; }
 .framemenubg a { color: #000; font-weight: bold; }
 .framemenubg a:hover { color: #eee; text-decoration: underline; }
 .framemenubg:before { position: absolute; left: 8px; bottom: 6px; right: 8px; top: 0; border: 1px solid rgba(0,0,0,.3); border-top: 0px solid transparent;
-	background: #eee url(../i/noise.png) left top repeat-x; box-shadow: 0 0 4px rgba(0,0,0,.5); border-radius: 0 0 6px 6px; opacity: 0.3; content: ""; z-index: -1; }
+	background: #eee url(i/noise.png) left top repeat-x; box-shadow: 0 0 4px rgba(0,0,0,.5); border-radius: 0 0 6px 6px; opacity: 0.3; content: ""; z-index: -1; }
 
 /* > > Mapframe */
-.framemapbg { background-image: url(../i/menufr.png); background-position: left top; background-repeat: repeat-x; padding: 12px 15px 0 15px; }
+.framemapbg { background-image: url(i/menufr.png); background-position: left top; background-repeat: repeat-x; padding: 12px 15px 0 15px; }
 .framemapbg:before { position: absolute; left: 8px; top: 8px; right: 8px; bottom: 0; border: 1px solid rgba(0,0,0,.3); border-bottom: 0px solid transparent;
 	background: #fff; box-shadow: 0 0 4px rgba(0,0,0,.5); border-radius: 9px 9px 0 0; opacity: 0.3; content: ""; z-index: -1; }
 .framemapbg img[src*="zahl"] { opacity: .75; }
@@ -43,10 +43,10 @@ a:hover { color: #f80; }
 
 /* > > > Karte */
 .nocango { width: 50px; height: 50px; border: 0; display: block; }
-.nocango:hover { background: transparent url(../i/nocango.png) left top no-repeat; cursor: default !important; }
+.nocango:hover { background: transparent url(i/nocango.png) left top no-repeat; cursor: default !important; }
 a[href="map.php?reload=1"] { position: absolute; left: 16px; font-size: 11px; }
 a[href="map.php?reload=1"]:after { content: "Aktualisieren"; }
-a[href="map.php?reload=1"] img { display: inline-block; width: 0px; height: 11px; background: url(../i/arrow_refresh_small.png);
+a[href="map.php?reload=1"] img { display: inline-block; width: 0px; height: 11px; background: url(i/arrow_refresh_small.png);
 	background-repeat: no-repeat; margin-left: 3px; padding-left: 11px; margin-top: 1px; overflow: hidden; }
 
 .positiontext { text-align: right; font-size: 11px; color: #555; padding: 0px 9px 2px 3px; }
@@ -54,20 +54,20 @@ a[href="map.php?reload=1"] img { display: inline-block; width: 0px; height: 11px
 .positiontext a:hover { color: #08c; }
 
 #test { text-align: center; font-size: 9px; color: #000; width: 242px; padding: 0 3px; min-height: 14px; margin: 0 auto; }
-.stdjpg { opacity: .9 !important; background-image: url(../i/berg.png) !important; }
+.stdjpg { opacity: .9 !important; background-image: url(i/berg.png) !important; }
 
 .framemapbg td { display: inline-block; position: relative; width: 50px; height: 50px; }
 
 /* > Chatframe (Form) */
-.framechatformbg { background: #e7effb url(../i/noise_gray.png); border-top: 0px solid #000 !important; }
+.framechatformbg { background: #e7effb url(i/noise_gray.png); border-top: 0px solid #000 !important; }
 .framechatformbg table { border-top: 0px solid #444 !important; }
 .framechatformbg td { color: #111; }
 
 /* > Chatframe (Text) */
-.framechattextbg { background: #f1f5fb url(../i/noise_gray.png) fixed; padding: 5px 7px; }
-.framechattextbg:after { background-image: url(../i/noise.png); background-repeat: repeat-x; background-attachment: fixed;
+.framechattextbg { background: #f1f5fb url(i/noise_gray.png) fixed; padding: 5px 7px; }
+.framechattextbg:after { background-image: url(i/noise.png); background-repeat: repeat-x; background-attachment: fixed;
 	background-position: left top; position: fixed; left: 0; right: 0; top: 0; height: 5px; z-index: 1000; content: ""; }
-.framechattextbg:before { background-image: url(../i/noiset.png); background-repeat: repeat-x; background-attachment: fixed;
+.framechattextbg:before { background-image: url(i/noiset.png); background-repeat: repeat-x; background-attachment: fixed;
 	background-position: left bottom; position: fixed; left: 0; right: 0; bottom: 0; height: 5px; z-index: 1000; content: ""; }
 .framechattextbg p { font-size: 12px; }
 
@@ -75,9 +75,9 @@ a[href="map.php?reload=1"] img { display: inline-block; width: 0px; height: 11px
 img[src$="sponsor.gif"],
 img[src$="sponsor2.gif"],
 img[src$="sponsor3.gif"] { display: inline-block; width: 0px; height: 10px;
-	background: url(../i/sponsor_o.png); background-repeat: no-repeat; padding-left: 11px; overflow: hidden; margin-right: 2px; }
-img[src$="sponsor2.gif"] { background: url(../i/sponsor_g.png); }
-img[src$="sponsor3.gif"] { background: url(../i/sponsor_b.png); }
+	background: url(i/sponsor_o.png); background-repeat: no-repeat; padding-left: 11px; overflow: hidden; margin-right: 2px; }
+img[src$="sponsor2.gif"] { background: url(i/sponsor_g.png); }
+img[src$="sponsor3.gif"] { background: url(i/sponsor_b.png); }
 
 /* > Chatframe (Text) > Chatfarben */
 
@@ -271,7 +271,7 @@ table[id^="fastspell"]:not(#fastspell) img[src$="close.gif"], #close1 img[src$="
 	display: inline-block;
 	width: 0px;
 	height: 10px;
-	background: url(../i/rcsmall.png);
+	background: url(i/rcsmall.png);
 	background-repeat: no-repeat;
 	margin-top: 1px;
 	padding-left: 10px;
@@ -285,7 +285,7 @@ table[id^="fastspell"]:not(#fastspell) img[src$="close.gif"], #close1 img[src$="
 	padding: 2px 3px;
 	border: 1px solid #ccc;
 	border-radius: 4px 4px 0 0;
-	background: url(../i/listcaption.png) left center repeat-x;
+	background: url(i/listcaption.png) left center repeat-x;
 	text-align: center;
 }
 
@@ -296,7 +296,7 @@ table[id^="fastspell"]:last-of-type + .small + p:last-of-type[class="listcaption
 
 .listrow {
 	border: 1px solid #ccc;
-	background: url(../i/white.png);
+	background: url(i/white.png);
 	padding: 1px;
 	opacity: .9;
 	border-top: 0;
@@ -432,24 +432,24 @@ span.medium {
 	padding-right: 16px;
 	position: absolute;
 	top: 0; right: 49px;
-	background-image: url(../i/action1.png);
+	background-image: url(i/action1.png);
 	background-position: center;
 }
 
 #filterrow ~ .listitemrow a[href^="item.php?action=activate"]:hover {
-	background-image: url(../i/action2.png);
+	background-image: url(i/action2.png);
 }
 
 #filterrow ~ .listitemrow a[href^="item.php?action=watch"] img {
 	padding-right: 16px;
 	position: absolute;
 	top: 0; right: 33px;
-	background-image: url(../i/action3.png);
+	background-image: url(i/action3.png);
 	background-position: center;
 }
 
 #filterrow ~ .listitemrow a[href^="item.php?action=watch"]:hover img {
-	background-image: url(../i/action4.png);
+	background-image: url(i/action4.png);
 }
 
 #filterrow ~ .listitemrow a[href^="item.php?action=transfer1"] img,
@@ -457,25 +457,25 @@ span.medium {
 	padding-right: 16px;
 	position: absolute;
 	top: 0; right: 17px;
-	background-image: url(../i/action5.png);
+	background-image: url(i/action5.png);
 	background-position: center;
 }
 
 #filterrow ~ .listitemrow a[href^="item.php?action=transfer1"]:hover img,
 #filterrow ~ .listitemrow a[href^="item.php?action=manytransfer1"]:hover img {
-	background-image: url(../i/action6.png);
+	background-image: url(i/action6.png);
 }
 
 #filterrow ~ .listitemrow a[href^="item.php?action=manydrop"] img {
 	padding-right: 16px;
 	position: absolute;
 	top: 0; right: 1px;
-	background-image: url(../i/action7.png);
+	background-image: url(i/action7.png);
 	background-position: center;
 }
 
 #filterrow ~ .listitemrow a[href^="item.php?action=manydrop"]:hover img {
-	background-image: url(../i/action8.png);
+	background-image: url(i/action8.png);
 }
 
 /* PE-Anzeige */
@@ -506,7 +506,7 @@ span.medium {
 }
 
 #fullenergydisp {
-	background-image: url(../i/button2.png) !important;
+	background-image: url(i/button2.png) !important;
 	background-color: #ccc !important;
 	border: 0px solid #999 !important;
 	border-radius: 0 0 4px 4px;
@@ -515,7 +515,7 @@ span.medium {
 }
 
 #curenergy {
-	background-image: url(../i/yellow.png) !important;
+	background-image: url(i/yellow.png) !important;
 	background-color: transparent !important;
 	border: 0px solid #eee !important;
 	border-radius: 0 0 0 3px;
@@ -542,11 +542,11 @@ span.medium {
 	border-bottom: 1px solid #777 !important;
 	color: #333 !important;
 	text-align: center;
-	background-image: url(../i/br2.png) !important;
+	background-image: url(i/br2.png) !important;
 }
 
 #ttContent {
-	background: #f1f5fb url(../i/noise.png) left top repeat-x !important;
+	background: #f1f5fb url(i/noise.png) left top repeat-x !important;
 	border: 1px solid #777 !important;
 	border-top: 0 !important;
 	border-radius: 0 0 4px 4px !important;
@@ -564,7 +564,7 @@ span.medium {
 	display: inline-block;
 	width: 0px;
 	height: 10px;
-	background: url(../i/rcsmall.png);
+	background: url(i/rcsmall.png);
 	background-repeat: no-repeat;
 	margin-top: 3px;
 	padding-right: 10px;
@@ -580,7 +580,7 @@ form[action="friends.php?action=insertuser"] input[name="username"] /* FL: Freun
 .frameitembg textarea[name="tele_msg"] /* Clantelep. */ {
 	width: 100%;
 	border: 1px solid #ccc;
-	background: url(../i/white.png);
+	background: url(i/white.png);
 	border-radius: 7px;
 	padding: 3px;
 	font-family: sans-serif;
@@ -675,7 +675,7 @@ table.areadescription .mainheader {
 table.areadescription .areadescription {
 	text-indent: 60px;
 	padding: 3px 5px 5px 5px;
-	background: #f1f5fb url(../i/noise.png) left top repeat-x;
+	background: #f1f5fb url(i/noise.png) left top repeat-x;
 }
 
 table.areadescription .areadescription * {
@@ -686,7 +686,7 @@ table.areadescription .areadescription * {
 
 .personlistcaption {
 	border: #1px solid #000;
-	background: #333 url(../i/user.png) 3px center no-repeat;
+	background: #333 url(i/user.png) 3px center no-repeat;
 	padding: 4px 5px 4px 23px;
 	border-radius: 5px;
 	color: #eee;
@@ -702,7 +702,7 @@ table.areadescription .areadescription * {
 	margin: 0;
 	height: auto;
 	min-height: auto;
-	background: url(../i/white.png);
+	background: url(i/white.png);
 }
 
 .personlistcaption + .listusersrow {
@@ -721,7 +721,7 @@ table.areadescription .areadescription * {
 	display: inline-block;
 	width: 0px;
 	height: 10px;
-	background: url(../i/comment.png);
+	background: url(i/comment.png);
 	background-repeat: no-repeat;
 	margin-top: 1px;
 	padding-left: 10px;
@@ -732,7 +732,7 @@ table.areadescription .areadescription * {
 	display: inline-block;
 	width: 0px;
 	height: 10px;
-	background: url(../i/group_add.png);
+	background: url(i/group_add.png);
 	background-repeat: no-repeat;
 	margin-top: 1px;
 	padding-left: 10px;
@@ -745,7 +745,7 @@ table.areadescription .areadescription * {
 	display: inline-block;
 	width: 0px;
 	height: 10px;
-	background: url(../i/group_go.png);
+	background: url(i/group_go.png);
 	background-repeat: no-repeat;
 	margin-top: 1px;
 	padding-left: 10px;
@@ -756,7 +756,7 @@ table.areadescription .areadescription * {
 	display: inline-block;
 	width: 0px;
 	height: 10px;
-	background: url(../i/rcsmall.png);
+	background: url(i/rcsmall.png);
 	background-repeat: no-repeat;
 	margin-top: 1px;
 	padding-left: 10px;
@@ -771,7 +771,7 @@ table.areadescription .areadescription * {
 	display: inline-block;
 	border: 1px solid #ccc;
 	border-bottom: 0;
-	background: url(../i/white.png);
+	background: url(i/white.png);
 	padding: 1px;
 	color: #333;
 	font-weight: normal;
@@ -804,7 +804,7 @@ table.areadescription .areadescription * {
 
 .itemlistcaption {
 	border: #1px solid #000;
-	background: #333 url(../i/box.png) 3px center no-repeat;
+	background: #333 url(i/box.png) 3px center no-repeat;
 	padding: 4px 5px 4px 23px;
 	border-radius: 5px;
 	font-size: 11px;
@@ -814,7 +814,7 @@ table.areadescription .areadescription * {
 
 #plantrow {
 	border: #1px solid #000;
-	background: #333 url(../i/plant.png) 3px center no-repeat;
+	background: #333 url(i/plant.png) 3px center no-repeat;
 	padding: 4px 5px 4px 23px;
 	border-radius: 5px;
 	font-size: 11px;
@@ -853,7 +853,7 @@ table.areadescription .areadescription * {
 	border-bottom: 1px solid #ccc;
 	padding: 1px;
 	margin-top: 3px;
-	background: url(../i/white.png);
+	background: url(i/white.png);
 }
 
 .friendlist tr td[width="200px"] {
@@ -929,7 +929,7 @@ img[src$="brief.jpg"] {
 	display: inline-block;
 	width: 0px;
 	height: 14px;
-	background: url(../i/brief.png);
+	background: url(i/brief.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	padding-left: 16px;
@@ -995,7 +995,7 @@ a[href="main.php?action=archive&mode=show#newest_msg"] ~ p.maincaption2 {
 	display: inline-block;
 	width: 0px;
 	height: 16px;
-	background: url(../i/eye.png);
+	background: url(i/eye.png);
 	background-repeat: no-repeat;
 	margin-top: 1px;
 	padding-left: 16px;
@@ -1006,7 +1006,7 @@ a[href="main.php?action=archive&mode=show#newest_msg"] ~ p.maincaption2 {
 	display: inline-block;
 	width: 0px;
 	height: 16px;
-	background: url(../i/eye2.png);
+	background: url(i/eye2.png);
 	background-repeat: no-repeat;
 	margin-top: 1px;
 	padding-left: 16px;
@@ -1024,7 +1024,7 @@ a[href="main.php?action=archive&mode=show#newest_msg"] ~ p.maincaption2 {
 
 .abilitymenu td {
 	border: 1px solid #eee;
-	background: url(../i/white.png);
+	background: url(i/white.png);
 	color: #333;
 }
 
@@ -1033,7 +1033,7 @@ a[href="main.php?action=archive&mode=show#newest_msg"] ~ p.maincaption2 {
 /* > Schwarze Felder "sichtbar" machen */
 td[style*="/map/black.jpg"] a:not(.nocango),
 td[style*="/map/u/Einzelbilder/002.jpg"] a,
-td[style*="/map/ixi19.jpg"] a { width: 50px; height: 50px; display: block; background-image:url(../i/uk.png) !important; }
+td[style*="/map/ixi19.jpg"] a { width: 50px; height: 50px; display: block; background-image:url(i/uk.png) !important; }
 
 /* > Bau-Menü */
 .builtcaption,
@@ -1100,11 +1100,11 @@ td[style*="/map/ixi19.jpg"] a { width: 50px; height: 50px; display: block; backg
 	width: 20px;
 	display: inline-block;
 	height: 11px;
-	background: url(../i/personen_grp.png) right bottom no-repeat;
+	background: url(i/personen_grp.png) right bottom no-repeat;
 }
 
 #listrow_group a:hover {
-	background: url(../i/personen_grph.png) right bottom no-repeat;
+	background: url(i/personen_grph.png) right bottom no-repeat;
 }
 
 table.areadescription + br,
@@ -1233,7 +1233,7 @@ div.uwork + br[style="clear: both;"] + br { display: none; }
 }
 
 .framebannerbg {
-	background: #fff url(../i/noise_gray.png) fixed;
+	background: #fff url(i/noise_gray.png) fixed;
 }
 
 .framebannerbg:before, .framebannerbg:after {
