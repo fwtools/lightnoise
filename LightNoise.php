@@ -79,7 +79,7 @@ class LightNoise {
 				$response->setHeader('Cache-Control', 'private, max-age=' . (60 - time() % 60));
 				$response->addHeader('Cache-Control', 'post-check=' . (60 - time() % 60));
 
-				$response->setBody('.positiontext:after{content:" - Pensal"}');
+				$response->setBody('.positiontext:after{content:" Pensal";color:#d00}');
 				return $response;
 			}
 		}
